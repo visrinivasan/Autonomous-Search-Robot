@@ -1,8 +1,7 @@
 # Autonomous Search Navigation Robot
 
-In this project, Autonomous navigation of iRobot was implement using RGB camera, Depth sensors and Odometer input.
-Sensory information was tranformed to Robot base co-ordinate frame and processed using RTABMap library. 
+An iRobot Roomba was used to navigate through an unknown (unexplored) terrain and identify a predefined object. The framework employed was built using ROS.
 
-Simulateneous localization and mapping was performed using RGBD-SLAM algorithm and motion planning / obstacle avoidance was implemented using A-star and RRT algorithms at global and local level respectively. 
+Microsoft Kinect was used for Navigation (using RGB- D SLAM) and path planning was made efficient using the in-built move_base library in ROS which uses A* algorithm. Real time frame capture was done using a HD Camera and Object detection on the frame was done using SIFT and SURF algorithms.
 
-"# Autonomous-Search-Robot" 
+https://youtu.be/haw_q7RuVB8
